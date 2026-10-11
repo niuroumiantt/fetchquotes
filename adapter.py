@@ -28,7 +28,7 @@ def extract(data, source, original, sampled_at):
                             '; regional availability unspecified; currency symbol $ only (currency code not confirmed); plus sales tax/VAT/GST; no inventory or transaction guarantee',
                             'offer', 'script var newIslands native JSON / props/tabs[label=1x]/contentHtml; NVIDIA H100 SXM row',
                             row[5], p.text,
-                            date(sampled_at, 'datetime', 'public offer observed at acquisition/reuse; not publisher effective date'))
+                            date(sampled_at, 'datetime', 'offer sampled by live acquisition; not publisher effective date') if sampled_at else None)
                         found.append(result)
     if len(found) != 1:
         raise ValueError('1x H100 quote missing or ambiguous')
