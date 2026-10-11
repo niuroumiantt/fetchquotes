@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-11",
+  "source_url": "https://lambda.ai/pricing",
+  "collector_revision": "c0f462fa93ffe2accceaa672fc15f36c096a509f",
+  "source_sha256": "56aed141efb72858e8cab05370010aece97d3affafeea66396e00299147a0174",
+  "original_bytes": 86656,
+  "real_candidates": 1,
+  "offline_valid": true,
+  "replay_verified": true,
+  "unit_tests_passed": 8,
+  "model_calls": 0,
+  "research_received": false,
+  "adopted": false,
+  "scheduled": false,
+  "limitations": [
+    "Research reception/adoption/website separate; unresolved identity remains a lead",
+    "currency code and region unresolved; $ symbol preserved, no USD or inventory assumption"
+  ]
+}
